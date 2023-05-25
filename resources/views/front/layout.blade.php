@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{asset('cms/dist/plugins/fontawesome-free/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico')}}">
 
     @stack('css')
 </head>

@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="{{asset('cms/dist/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('cms/dist/css/adminlte.min.css')}}">
+  
+  <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico')}}">
 
   <style>
     .brand-link{
