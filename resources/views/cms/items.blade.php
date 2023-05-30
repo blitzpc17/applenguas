@@ -261,8 +261,8 @@
        formData.append("palabra", $("#palabra").val());
        formData.append("clasica", $("#clasica").val());
        formData.append("moderna", $("#moderna").val());
-       formData.append("img", $("#img")[0].files[0]);
-       formData.append("pronunciacion", $("#pronunciacion")[0].files[0]);
+       formData.append("img", $("#img")[0].files[0]==undefined?"":$('#img')[0].files[0]);
+       formData.append("pronunciacion", $("#pronunciacion")[0].files[0]==undefined?"":$('#pronunciacion')[0].files[0]);
        formData.append("op", $("#op").val());
        formData.append("id", $("#id").val());
        formData.append("categoria", $("#categoria").val());

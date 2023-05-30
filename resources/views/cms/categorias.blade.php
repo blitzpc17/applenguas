@@ -227,7 +227,7 @@
        let formData = new FormData();
        formData.append("nombre", $("#nombre").val());
        formData.append("descripcion", $("#descripcion").val());
-       formData.append("imagen", $("#imagen")[0].files[0]);
+       formData.append("imagen", $("#imagen")[0].files[0]==undefined?"":$('#imagen')[0].files[0]);
        formData.append("op", $("#op").val());
        formData.append("id", $("#id").val());
 

@@ -237,7 +237,7 @@
        formData.append("frase", $("#frase").val());
        formData.append("clasica", $("#clasico").val());
        formData.append("moderna", $("#moderno").val());
-       formData.append("video", $("#video")[0].files[0]);
+       formData.append("video", $("#video")[0].files[0]==undefined?"":$('#video')[0].files[0]);
        formData.append("op", $("#op").val());
        formData.append("id", $("#id").val());
 

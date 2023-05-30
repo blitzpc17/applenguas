@@ -229,7 +229,7 @@
        let formData = new FormData();
        formData.append("titulo", $("#titulo").val());
        formData.append("texto", $("#texto").val());
-       formData.append("img", $("#img")[0].files[0]);
+       formData.append("img", $("#img")[0].files[0]==undefined?"":$('#img')[0].files[0]);
        formData.append("op", $("#op").val());
        formData.append("id", $("#id").val());
 
